@@ -1,0 +1,254 @@
+body {
+    background-color: white;
+}.header {
+    background-image: url();
+    text-align: center;
+    font-size:3em;
+    border-style: none;
+    padding:1em;
+    opacity:0.9;
+    width:75%;
+}
+
+nav {
+    font-size:1em;
+    text-align: center;
+    font-family: cursive;
+}
+
+.headerTitle {
+    color:white;
+    font-family: cursive;
+}
+.headerSlogan {
+    font-size: 0.9em;
+    display:inline;
+}
+
+.headerSlogan p {
+    display:inline;
+}
+
+nav {
+    font-size:2em;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+a {
+    color:black;
+    text-align: center
+}
+
+.page {
+    background-image: url("https://1366x768wallpaper.com/2015/07/14/blue-brown-cyan-green-lakes-landscapes-mountains-sky.jpg");
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+.pricing {
+    text-align:center;
+    margin:5em;
+    display:flex;
+    flex-direction:column;
+    max-width: 1000px;
+    padding:1em;
+    
+}
+
+.pricing h2, .themes h2 {
+    display:inline-block;
+    color:black;
+    opacity:0.9;
+}
+
+.pricing-items {
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    padding-bottom: 2em;
+    flex-grow:1;
+    width:auto;
+}
+
+.priceClass {
+    
+    text-align:center;
+    border-style: double;
+    margin:5px 30px;
+    padding:1em;
+    background-color:aliceblue;
+}
+
+.themes {
+    text-align:center;
+    margin:10em;
+    display:flex;
+    flex-direction:column;
+    max-width: 1000px;
+    padding:1em;
+    flex-shrink:0;
+}
+
+.theme-items{
+    text-align: center;
+    font-family: sans-serif;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.themeChoice1 {
+    text-align:center;
+    border-style: double;
+    margin:5px;
+    padding:1em;
+    opacity:0.90;
+    background-color: aliceblue;
+}
+
+.themeChoice1 li {
+    color:black;
+    display:inline-block;
+    
+}
+
+textarea{
+	font-size: 16px;
+}
+
+.themeChoice2 {
+    
+    text-align:center;
+    border-style: double;
+    margin:5px;
+    padding:1em;
+    opacity:0.90;
+    background-color:aliceblue;
+    
+}
+.themeChoice2 h2, .themeChoice2 li{
+    color:black;
+    display:inline-block;
+}
+
+
+.themeChoice3 {
+    text-align:center;
+    border-style: double;
+    margin:5px;
+    padding:1em;
+    opacity:0.90;
+    background-color: aliceblue;
+}
+
+.themeChoice3 h2, .themeChoice3 li{
+    color:black;
+    display:inline-block;
+}
+
+ul {
+    list-style: none;
+    padding:inherit;
+}
+
+.contactInfo {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.contactFacebook, .contactInstagram, .contactTwitter {
+    height:5em;
+    width:5em;
+}
+
+.contact img {
+	max-width:100%;
+	height:auto;
+}
+
+.contact, .about   {
+    text-align:center;
+    border:groove;
+    margin:5em;
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color:#111;
+	padding-bottom: 10px;
+	
+}
+
+form {
+	background-color:black;
+	color:white;
+}
+.about {
+	color:skyblue;
+}
+
+img {
+	width:4em;
+	height:auto;
+}
+.contact {
+    color:whitesmoke;
+}
+
+@media (max-width: 1050px) {
+    .pricing-items {
+        flex-wrap: wrap;
+        min-width:500px;
+    }
+    .contact {
+        display:block;
+    }
+    .contactInfo {
+        justify-content: center;
+    }
+    h2 {
+        font-size:18px;
+    }
+    h1 {
+        font-size:22px;
+    }
+    .headerSlogan>p{
+        display:inline-block;
+        font-size:0.5em;
+        
+    }
+    img.logo{
+        width:100px;
+        height:auto;
+    }
+    .about {
+        display:block;
+            ;
+    }
+    
+    .theme-items {
+        width:500px;
+    }
+    }
+
+@media (max-width: 800px)
+{
+    nav {
+        display:flex;
+        flex-direction:column;
+    }
+    span.room {
+        visibility: hidden;
+    }
+    
+}
